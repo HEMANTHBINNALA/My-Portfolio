@@ -1,0 +1,228 @@
+RESUME
+             I want to begin my career in a reputed organization where I can leverage my computer and data science                          
+back      background, problem -solving skills, and passion for technology to contribute to innovative projects and drive business 
+succe.  success. Eager to grow professionally in a dynamic and collaborative environment.  
+ 
+Course  College/School  University/Board  PassOut 
+Year  Percentage 
+/CGPA  
+B.Tech. 
+(CSD)  Aditya Institute of  
+Technology and  
+Management,Tekkali    
+JNTUGV ,Vizianagaram    
+Pursuing  7.69 
+(CGPA)  
+Diploma(ECE)  
+         Government  
+polytechnic vijayawada  
+      SBTET, AndhraPradesh  
+2023  85%   
+SSC  Z.P High School,  
+Chapara  Board of Secondary 
+Education,AndhraPradesh  2021          9.8  
+  
+ 
+ Programming  :  Python, Java, C, C++  
+ Development  :  HTML, CSS, Bootstrap, JavaScript   
+ Database  :  MySQL, PHP   
+ Operating Systems  :  Windows, Android  
+  
+ 
+            ONLINE  CAR  RENTAL  MANAGEMENT   
+            Technologies used: HTML, CSS, JavaScript, PHP, MySQL  
+             Description:  
+• Developed an Online Car Rental Management platform to simplify car booking for users and administrators.  
+• Built features for users to browse various car models with respective prices, select departure and destination.     
+• Enabled administrators to manage booking records,customer details, and oversee rental operations efficiently.  
+• Implemented secure authentication and role -based access to ensure proper data handling and privacy.  
+  
+ 
+IBM  – FRONT END DEVELOPMENT                                                     (September 2025  –  October 2025)  
+• Worked on front -end technologies to design and develop minor websites, including a furniture                   
+booking   platform.  
+ACADEMIC  
+  
+PROFILE  
+  
+TECHNICALSKILLS  
+  
+PROJECT  
+  
+EXPERIENCE  
+  
+   
+INTERNSHIP EXPRIENCES  
+  
+https://www.linkedin.com/in/domana  
+- 
+pujitha  
+- 
+4567a7324  
+https://www.linkedin.com/in/domana  
+- 
+pujitha  
+- 
+4567a7324  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+HEMANTH  
+  
+  
+BINNALA  
+  
+     
+        
+  
+Email         
+: 
+  
+  
+hemanthbin354  
+@gmail.com  
+  
+  
+    
+        
+  
+  
+Contact      
+: 
+  
+  
++91 
+- 
+9347829303  
+  
+    
+        
+  
+  
+LinkedIn   
+: 
+  
+  
+https://www.linkedin  
+.com/in/binnala  
+- 
+hemanth  
+  
+    
+        
+  
+  
+Github      
+  
+: 
+  
+  
+https://github.com/  
+HEMANTHBINNALA  
+  
+CAREER   OBJECTIVE  
+  COCURRICULAR  
+  
+ACTIVITIES  
+  • Gained practical experience in building interactive and user -friendly web interfaces.  
+  
+• Successfully developed a fully functional website named “Recipe Finder” , integrating jQuery,  PHP, and 
+MySQL.              
+• Ensured the application was efficient, reliable, and optimized for smooth user experience.  
+   
+ 
+• Completed “Edunet – Front End Web Development”  training program, gaining practical skill in building 
+responsive web applications.         
+• Completed “NPTEL – Python for Data Science”  online certification course, focusing on data                   
+analysis, visualization, and machine learning concepts using Python.  
+  
+        
+ 
+• Participated and won 2nd place in a “Web Quest” theme of “Static Online Examination  Portal”  which is 
+organized by Department of CSD, AITAM, Tekkali.  
+• Completed Python Fundamentals – GeekforGeeks  
+  
+ 
+                             Father’s Name               :      BINNALA LAKSHMANA RAO   
+Date of Birth                 :      27 September 2005   
+                            Address                           :      D/no - 6-A ,Chapara(Village),                              
+                                              Meliaputti(Mandal), Srikakulam(District) , 
+                                              AndhraPradesh(State) ,Pincode : 532216.  
+Hobbies/Interests     :      Listening to music,  Gardening, Playing Cricket.   
+Languages Known        :  
+  
+Language  Speak  Read  Write  
+English  ✔  ✔  ✔  
+Telugu  ✔  ✔  ✔  
+Hindi                   ➖  
+  ✔  ✔  
+  
+ 
+I here by declare that the details furnished above are true and correct.                                                                                                        
+                        Date  :  11-01-2026                                                                               Binnala Hemanth   
+Place : Tekkali                                                                                                 
+CERTIFICATIONS  
+  
+PERSONAL  
+  
+DETAILS  
+  
+DECLARATION  
+  
+
+OFFER
+Date: 05th February 2026
+                               Sub:  Offer of Appointment as a “Agentic AI Intern – Remote”
+Dear Binnala Hemanth (Intern ID : IN226033802),
+This appointment is offered to Mr./Ms. Binnala Hemanth, a student of Aditya Institute of 
+Technology and Management , as part of the internship program conducted by Innomatics 
+Research Labs.
+1.We are pleased to offer you an appointment in  Innomatics Research Labs  as  Agentic AI
+Intern.  Your  association  with  us  will  be  governed  by  certain  confidential  information
+(mentioned below section) which needs to be followed.
+2.You are required to virtually join on  09th February, 2026  and the offer stands withdrawn
+there after unless the date is extended and communicated to you in writing.
+3.You are requested to login via registered email id on the Zoom link which has been sent
+to  your  respective  mails.  You  should  report  at  06:00PM  IST  sharp  on  the  above-
+mentioned date to complete the joining formalities. All the below mentioned documents
+should be scanned and sent through Google form. (Onboarding Form Link is available in the
+mail).
+4.During  the  Internship,  you  will  be  assigned  with  Python  Programming,  FastAPI,  AWS,
+LangChain and LangGraph  related Projects/Products/Trainings that will help improve your
+understandings of the concepts learned. And you would be expected to put your best efforts
+in executing the tasks assigned to you. These tasks will help you in upskilling yourself.
+5.As  an  intern,  you will  not receive any  of  the  employee  benefits that  regular  company
+employee receives.
+6.We welcome you to Innomatics family  and look forward for a long term and mutually
+beneficial association.
+7.Please be advised that this is an unpaid internship program.Confidentiality
+During this Internship, you may come across confidential business information. By accepting
+this, you acknowledge that you must keep all this information strictly confidential, and refrain
+from using it for your own purposes or from disclosing it to anyone outside the company. In
+addition, you agree that, upon conclusion of your employment, you will immediately return to
+the  company  all  its  property,  equipment,  and  documents,  including  electronically  stored
+information. Failing which you will be subjected undergo required legal procedures. Please sign
+and attach a scanned copy of this Intern offer letter via same Google form, signifying your
+acceptance to the terms and conditions enunciated above.
+Yours Sincerely,
+Raghu Ram Aduri
+(Program Manager)
+Innomatics Research Labs
+This is to certify that I have read this Agreement and understood all the terms and conditions
+mentioned therein and I hereby accept and agree to abide by them:
+Date: Name:
+Place: Signature:
+***This is a highly confidential document hence you are requested not disclose it to anyone elseAll the below mentioned documents must be submitted  (Kindly submit them via the Google
+Form mentioned in email).
+ 
+1) Signed Offer Letter
+2) Self-Attested Government ID proofs
+3) Passport sized color photographs
+4) Updated resume

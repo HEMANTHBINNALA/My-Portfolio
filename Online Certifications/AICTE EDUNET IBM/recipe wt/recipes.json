@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Cheesy Tomato Pasta",
+    "ingredients": ["tomato", "cheese", "pasta", "olive oil", "garlic"],
+    "steps": [
+      "Boil pasta until al dente.",
+      "Sauté garlic and tomatoes in olive oil.",
+      "Add cheese and mix with pasta.",
+      "Garnish with herbs and serve hot."
+    ],
+    "image": "images/pasta.jpg"
+  },
+  {
+    "name": "Veggie Sandwich",
+    "ingredients": ["bread", "lettuce", "tomato", "cheese", "mayonnaise"],
+    "steps": [
+      "Toast bread slices.",
+      "Layer with lettuce, tomato, and cheese.",
+      "Spread mayonnaise and close sandwich.",
+      "Cut and serve with ketchup."
+    ],
+    "image": "images/sandwich.jpg"
+  },
+  {
+    "name": "Fruit Salad Delight",
+    "ingredients": ["apple", "banana", "grapes", "orange", "honey"],
+    "steps": [
+      "Chop all fruits into bite-sized pieces.",
+      "Mix in a bowl and drizzle honey.",
+      "Chill for 30 minutes.",
+      "Serve fresh with mint leaves."
+    ],
+    "image": "images/fruit_salad.jpg"
+  },
+  {
+    "name": "Spicy Paneer Wrap",
+    "ingredients": ["paneer", "tortilla", "onion", "capsicum", "spices"],
+    "steps": [
+      "Sauté paneer with onion, capsicum, and spices.",
+      "Place mixture in tortilla and roll tightly.",
+      "Grill for 2 minutes.",
+      "Serve with chutney or dip."
+    ],
+    "image": "images/paneer_wrap.jpg"
+  },
+  {
+    "name": "Chocolate Mug Cake",
+    "ingredients": ["flour", "cocoa powder", "milk", "sugar", "baking powder"],
+    "steps": [
+      "Mix all ingredients in a mug.",
+      "Microwave for 90 seconds.",
+      "Let it cool slightly.",
+      "Top with chocolate chips or syrup."
+    ],
+    "image": "images/mug_cake.jpg"
+  },
+  {
+    "name": "Masala Omelette",
+    "ingredients": ["egg", "onion", "green chili", "tomato", "spices"],
+    "steps": [
+      "Beat eggs and mix with chopped veggies and spices.",
+      "Pour into hot pan and cook both sides.",
+      "Fold and serve with toast."
+    ],
+    "image": "images/omelette.jpg"
+  },
+  {
+    "name": "Classic Lemonade",
+    "ingredients": ["lemon", "sugar", "water", "mint"],
+    "steps": [
+      "Squeeze lemon juice into a jug.",
+      "Add sugar and water, stir well.",
+      "Add mint leaves and ice.",
+      "Serve chilled."
+    ],
+    "image": "images/lemonade.jpg"
+  },
+  {
+    "name": "Corn Chaat",
+    "ingredients": ["sweet corn", "onion", "tomato", "lemon", "spices"],
+    "steps": [
+      "Boil sweet corn.",
+      "Mix with chopped veggies and spices.",
+      "Squeeze lemon juice.",
+      "Serve in bowls with coriander garnish."
+    ],
+    "image": "images/corn_chaat.jpg"
+  },
+  {
+    "name": "Mango Smoothie",
+    "ingredients": ["mango", "milk", "sugar", "ice cubes"],
+    "steps": [
+      "Blend mango, milk, and sugar until smooth.",
+      "Add ice cubes and blend again.",
+      "Pour into glasses and serve cold."
+    ],
+    "image": "images/mango_smoothie.jpg"
+  },
+  {
+    "name": "Garlic Butter Rice",
+    "ingredients": ["rice", "garlic", "butter", "salt", "pepper"],
+    "steps": [
+      "Cook rice and keep aside.",
+      "Sauté garlic in butter.",
+      "Mix rice with garlic butter.",
+      "Season with salt and pepper."
+    ],
+    "image": "images/garlic_rice.jpg"
+  }
+]

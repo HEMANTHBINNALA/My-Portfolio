@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us - Magic Recipe Finder</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #ffecd2, #fcb69f);
+      margin: 0;
+      padding: 0;
+      animation: fadeIn 1s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    nav {
+      background-color: #ff6f61;
+      color: white;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffe0b2;
+    }
+
+    .about-section {
+      padding: 3rem;
+      text-align: center;
+      animation: slideUp 1s ease-in-out;
+    }
+
+    @keyframes slideUp {
+      from { transform: translateY(50px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    .about-section h2 {
+      font-size: 2.5rem;
+      color: #d84315;
+      margin-bottom: 1rem;
+    }
+
+    .about-section p {
+      font-size: 1.2rem;
+      color: #4e342e;
+      max-width: 800px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    .team {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 3rem;
+      flex-wrap: wrap;
+    }
+
+    .member {
+      background: #fff3e0;
+      padding: 1rem;
+      border-radius: 10px;
+      width: 250px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .member:hover {
+      transform: scale(1.05);
+    }
+
+    .member img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .member h3 {
+      margin-top: 0.5rem;
+      color: #e64a19;
+    }
+
+    footer {
+      background-color: #ffab91;
+      padding: 2rem;
+      text-align: center;
+      color: #3e2723;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h1>🍽️ Magic Recipe Finder</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="register.html">Register</a></li>
+    </ul>
+  </nav>
+
+  <section class="about-section">
+    <h2>About Magic Recipe Finder</h2>
+    <p>
+      Welcome to Magic Recipe Finder — your culinary companion for discovering delicious dishes with the ingredients you already have! Whether you're a seasoned chef or a curious beginner, our platform helps you turn everyday items into extraordinary meals. With vibrant visuals, smart search, and a dash of magic, cooking has never been this fun!
+    </p>
+
+    <div class="team">
+      <div class="member">
+        <img src="images/luffyteam1.jpg" alt="Chef Aanya">
+        <h3>Chef Luffy</h3>
+        <p>Creative mind behind our fusion recipes and flavor pairings.</p>
+      </div>
+      <div class="member">
+        <img src="images/nami.jpg" alt="Chef Rohan">
+        <h3>Chef Nami</h3>
+        <p>Tech-savvy foodie who built the smart ingredient engine.</p>
+      </div>
+      <div class="member">
+        <img src="images/zoro.jpg" alt="Chef Meera">
+        <h3>Chef Zoro</h3>
+        <p>Passionate about healthy cooking and seasonal delights.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Magic Recipe Finder — Crafted with ❤️ for food lovers everywhere.</p>
+  </footer>
+</body>
+</html>

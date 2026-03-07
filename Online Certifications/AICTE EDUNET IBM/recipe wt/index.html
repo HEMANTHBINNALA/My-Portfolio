@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Magic Recipe Finder</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="page-wrapper">
+    <nav>
+      <h1>🍽️ Magic Recipe Finder</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+
+    <div class="content">
+      <section class="slider">
+        <div class="slides">
+          <div class="slide"><img src="images/Garden-Salad.jpg" alt="Garden Salad"/></div>
+          <div class="slide"><img src="images/elements-of-cooking-flavor-profiling.webp" alt="Flavor Profiling"/></div>
+          <div class="slide"><img src="images/entree-Hearty-Beef-Vegetable-Soup.jpg" alt="Beef Soup"/></div>
+        </div>
+      </section>
+
+      <section class="search-box">
+        <h2>Enter Ingredients</h2>
+        <input type="text" id="ingredients" placeholder="e.g., tomato, cheese, pasta"/>
+        <button onclick="findRecipe()">Find Recipe</button>
+      </section>
+
+      <section id="recipe-result" class="recipe-display"></section>
+
+      <section class="recipe-slot">
+        <h2>🍲 Featured Recipes</h2>
+        <div class="recipe-grid">
+          <div class="recipe-card">
+            <img class="recipe-card img" src="images/Cheesy-Tomato-Pasta-2.jpg" alt="Cheesy Tomato Pasta" />
+            <h3>Cheesy Tomato Pasta</h3>
+            <p>Rich and creamy pasta with garlic and herbs.</p>
+          </div>
+          <div class="recipe-card">
+            <img class="recipe-card img" src="images/veggie-sandwich-.avif" alt="Veggie Sandwich" />
+            <h3>Veggie Sandwich</h3>
+            <p>Fresh veggies layered with cheese and mayo.</p>
+          </div>
+          <div class="recipe-card">
+            <img class="recipe-card img" src="images/fruit salad delight.webp" alt="Fruit Salad Delight" />
+            <h3>Fruit Salad Delight</h3>
+            <p>Colorful mix of fruits drizzled with honey.</p>
+          </div>
+          <div class="recipe-card">
+            <img class="recipe-card img" src="images/Paneer-kathi-Roll-Featured-1.jpg" alt="Spicy Paneer Wrap" />
+            <h3>Spicy Paneer Wrap</h3>
+            <p>Grilled paneer and veggies in a tortilla.</p>
+          </div>
+        </div>
+        <button onclick="addRecipe()" class="add-recipe-btn">➕ Add New Recipe</button>
+      </section>
+    </div>
+
+    <footer>
+      <div class="social">
+        <h3>Follow Us</h3>
+        <a href="#">Instagram</a>
+        <a href="#">YouTube</a>
+        <a href="#">Facebook</a>
+      </div>
+      <div class="suggestions">
+        <h3>Suggestions</h3>
+        <textarea placeholder="Share your ideas..."></textarea>
+        <button>Submit</button>
+      </div>
+      <div class="complaint">
+        <h3>Complaint Box</h3>
+        <textarea placeholder="Report an issue..."></textarea>
+        <button>Submit</button>
+      </div>
+      <p>© 2025 Magic Recipe Finder</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>

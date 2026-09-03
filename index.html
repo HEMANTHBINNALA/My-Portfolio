@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Binnala Hemanth - Modern Professional Portfolio. Aspiring AI, Machine Learning & Data Science Analyst based in India.">
+    <title>Binnala Hemanth | Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body class="dark-theme">
+
+    <!-- Background Animations -->
+    <div class="bg-animation-container">
+        <div class="glow-orb glow-orb-1"></div>
+        <div class="glow-orb glow-orb-2"></div>
+        <div class="glow-orb glow-orb-3"></div>
+        <canvas id="particle-canvas"></canvas>
+    </div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#" class="nav__logo">HEMANTH <span>BINNALA</span></a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="ph ph-x"></i>
+                </div>
+            </div>
+            <div class="nav__btns">
+                <i class="ph ph-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ph ph-list"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- HOME SECTION -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data reveal-left">
+                    <h3 class="home__subtitle">Hello, I'm</h3>
+                    <h1 class="home__title">Hemanth Binnala</h1>
+                    <h2 class="home__profession">B.Tech Computer Science &amp; Data Science Student | Agentic AI &amp; Full-Stack Developer</h2>
+                    <p class="home__description">
+                        Motivated B.Tech Computer Science (Data Science) student (graduating 2027) skilled in C++, Java, Python, and Web/AI development, with AWS Certified Cloud Practitioner status and hands-on internship experience in Agentic AI and Front-End development. Ready to leverage strong analytical and programming skills for innovative projects.
+                    </p>
+                    <div class="home__buttons">
+                        <a href="#projects" class="btn btn--primary">View Projects</a>
+                        <a href="Online Certifications/Binnala_Hemanth_Resume.pdf" target="_blank" class="btn btn--outline">Download CV</a>
+                    </div>
+                </div>
+                <div class="home__images reveal-right">
+                    <div class="home__blob">
+                        <div class="home__img-placeholder">
+                            <img src="Hemanthpic.jpg" alt="Hemanth Binnala" class="home__img">
+                        </div>
+                    </div>
+                    <!-- Decorative Elements -->
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data reveal-up align-center text-center" style="text-align: justify;">
+                    <h2 class="section__title">About Me</h2>
+                    <p class="about__description">
+                        I am an ambitious and dedicated <strong>Computer Science &amp; Data Science (CSD) undergraduate</strong>
+                        at the Aditya Institute of Technology and Management, Tekkali. Driven by a proactive curiosity
+                        for technology, I specialize in translating complex data into actionable insights and building intelligent system architectures. By blending advanced analytics, software engineering principles, and hands-on Agentic AI workflow experience, I aim to create modern full-stack web applications and robust AI-powered pipelines that address real-world business challenges.
+                    </p>
+                </div>
+
+                <div class="about__info-container reveal-right">
+                    <div class="about__info grid">
+                        <div class="about__box">
+                            <i class="ph ph-graduation-cap about__icon"></i>
+                            <h3 class="about__title">B.Tech (CSD)</h3>
+                            <span class="about__subtitle">AITAM, Tekkali</span>
+                            <span class="about__detail">Pursuing | 7.78 CGPA</span>
+                        </div>
+                        <div class="about__box">
+                            <i class="ph ph-certificate about__icon"></i>
+                            <h3 class="about__title">Diploma (ECE)</h3>
+                            <span class="about__subtitle">Govt Polytechnic</span>
+                            <span class="about__detail">2023 | 85%</span>
+                        </div>
+                        <div class="about__box">
+                            <i class="ph ph-books about__icon"></i>
+                            <h3 class="about__title">SSC</h3>
+                            <span class="about__subtitle">Z.P High School</span>
+                            <span class="about__detail">2021 | 9.8 GPA</span>
+                        </div>
+                        <div class="about__box">
+                            <i class="ph ph-map-pin about__icon"></i>
+                            <h3 class="about__title">Location</h3>
+                            <span class="about__subtitle">Chapara Village</span>
+                            <span class="about__detail">Srikakulam, AP, India</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section class="skills section glass-bg" id="skills">
+            <div class="container">
+                <h2 class="section__title align-center reveal-up">My Expertise</h2>
+                <div class="skills__container grid">
+
+                    <div class="skills__content reveal-up">
+                        <div class="skills__header">
+                            <i class="ph ph-code skills__icon"></i>
+                            <h3 class="skills__title">Programming</h3>
+                        </div>
+                        <div class="skills__list">
+                            <span class="skill__tag">C</span>
+                            <span class="skill__tag">Java</span>
+                            <span class="skill__tag">Python</span>
+                            <span class="skill__tag">C++</span>
+                            <span class="skill__tag">R</span>
+                            <span class="skill__tag">JavaScript</span>
+                            <span class="skill__tag">SQL</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__content reveal-up" style="transition-delay: 100ms;">
+                        <div class="skills__header">
+                            <i class="ph ph-desktop skills__icon"></i>
+                            <h3 class="skills__title">Web &amp; Databases</h3>
+                        </div>
+                        <div class="skills__list">
+                            <span class="skill__tag">HTML</span>
+                            <span class="skill__tag">CSS</span>
+                            <span class="skill__tag">Bootstrap</span>
+                            <span class="skill__tag">JavaScript</span>
+                            <span class="skill__tag">PHP</span>
+                            <span class="skill__tag">jQuery</span>
+                            <span class="skill__tag">MySQL</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__content reveal-up" style="transition-delay: 200ms;">
+                        <div class="skills__header">
+                            <i class="ph ph-brain skills__icon"></i>
+                            <h3 class="skills__title">AI / ML &amp; Cloud Tools</h3>
+                        </div>
+                        <div class="skills__list">
+                            <span class="skill__tag">LangChain</span>
+                            <span class="skill__tag">LangGraph</span>
+                            <span class="skill__tag">ChromaDB</span>
+                            <span class="skill__tag">Sentence Transformers</span>
+                            <span class="skill__tag">Groq</span>
+                            <span class="skill__tag">Gemini API</span>
+                            <span class="skill__tag">FastAPI</span>
+                            <span class="skill__tag">AWS</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__content reveal-up" style="transition-delay: 300ms;">
+                        <div class="skills__header">
+                            <i class="ph ph-laptop skills__icon"></i>
+                            <h3 class="skills__title">Core Concepts &amp; OS</h3>
+                        </div>
+                        <div class="skills__list">
+                            <span class="skill__tag">OOP</span>
+                            <span class="skill__tag">DBMS</span>
+                            <span class="skill__tag">Networking</span>
+                            <span class="skill__tag">OS (Windows/Linux/Android)</span>
+                            <span class="skill__tag">SDLC</span>
+                            <span class="skill__tag">Software Engineering</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__content reveal-up" style="transition-delay: 400ms;">
+                        <div class="skills__header">
+                            <i class="ph ph-chart-bar skills__icon"></i>
+                            <h3 class="skills__title">Analytical Skills</h3>
+                        </div>
+                        <div class="skills__list">
+                            <span class="skill__tag">Problem-solving</span>
+                            <span class="skill__tag">Semantic Search</span>
+                            <span class="skill__tag">Data Analysis</span>
+                            <span class="skill__tag">System Thinking</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__content reveal-up" style="transition-delay: 500ms;">
+                        <div class="skills__header">
+                            <i class="ph ph-translate skills__icon"></i>
+                            <h3 class="skills__title">Languages</h3>
+                        </div>
+                        <div class="skills__list">
+                            <span class="skill__tag">English (Read/Write/Speak)</span>
+                            <span class="skill__tag">Telugu (Read/Write/Speak)</span>
+                            <span class="skill__tag">Hindi (Read/Write)</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section class="projects section" id="projects">
+            <h2 class="section__title align-center reveal-up">Featured Projects</h2>
+            <div class="projects__container container grid">
+
+                <article class="project__card reveal-up">
+                    <div class="project__img-box">
+                        <i class="ph ph-robot project__banner-icon"></i>
+                    </div>
+                    <div class="project__content">
+                        <h3 class="project__title">RAG-Based Customer Support System</h3>
+                        <div class="project__tech-list">
+                            <span class="project__tech-tag">LangGraph</span>
+                            <span class="project__tech-tag">ChromaDB</span>
+                            <span class="project__tech-tag">Sentence Transformers</span>
+                            <span class="project__tech-tag">Groq/Gemini</span>
+                        </div>
+                        <p class="project__description" style="text-align: justify; font-size: 0.95rem;">
+                            Built an AI-powered customer support system supporting PDF and CSV ingestion up to 1GB. Implemented semantic search with cosine similarity for accurate document retrieval. Designed Human-in-the-Loop (HITL) escalation flow for reliable responses, and developed an interactive Streamlit UI with confidence scores and a debug panel.
+                        </p>
+                        <div style="margin-top: 1.25rem;">
+                            <a href="https://github.com/HEMANTHBINNALA/Rag-Customer-Support" target="_blank" class="btn btn--primary" style="padding: 0.5rem 1rem; font-size: 0.875rem; border-radius: 0.5rem; display: inline-flex; align-items: center; gap: 0.5rem;">
+                                <i class="ph ph-github-logo"></i> GitHub Repository
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project__card reveal-left">
+                    <div class="project__img-box">
+                        <i class="ph ph-notebook project__banner-icon"></i>
+                    </div>
+                    <div class="project__content">
+                        <h3 class="project__title">AssignFlow – Assignment Management System</h3>
+                        <div class="project__tech-list">
+                            <span class="project__tech-tag">PHP</span>
+                            <span class="project__tech-tag">MySQL</span>
+                            <span class="project__tech-tag">HTML</span>
+                            <span class="project__tech-tag">CSS</span>
+                            <span class="project__tech-tag">JavaScript</span>
+                        </div>
+                        <p class="project__description" style="text-align: justify; font-size: 0.95rem;">
+                            Built a full-stack, role-based assignment management platform for faculty and students using PHP and MySQL. Designed a relational DB schema with foreign-key integrity to manage classes and rosters, implemented multi-format submissions (with in-browser audio/video recording), and developed a faculty grading dashboard.
+                        </p>
+                        <div style="margin-top: 1.25rem;">
+                            <a href="https://github.com/HEMANTHBINNALA/ASSIGNFLOW/tree/main/assignflow" target="_blank" class="btn btn--primary" style="padding: 0.5rem 1rem; font-size: 0.875rem; border-radius: 0.5rem; display: inline-flex; align-items: center; gap: 0.5rem;">
+                                <i class="ph ph-github-logo"></i> GitHub Repository
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project__card reveal-right">
+                    <div class="project__img-box">
+                        <i class="ph ph-bowl-food project__banner-icon"></i>
+                    </div>
+                    <div class="project__content">
+                        <h3 class="project__title">Recipe Finder Web Application</h3>
+                        <div class="project__tech-list">
+                            <span class="project__tech-tag">jQuery</span>
+                            <span class="project__tech-tag">PHP</span>
+                            <span class="project__tech-tag">MySQL</span>
+                        </div>
+                        <p class="project__description" style="text-align: justify; font-size: 0.95rem;">
+                            Developed a fully functional recipe search application featuring efficient database queries, real-time filtering, and a smooth user experience designed to find cooking recipes dynamically.
+                        </p>
+                        <div style="margin-top: 1.25rem;">
+                            <a href="https://github.com/HEMANTHBINNALA/Recipe-finder" target="_blank" class="btn btn--primary" style="padding: 0.5rem 1rem; font-size: 0.875rem; border-radius: 0.5rem; display: inline-flex; align-items: center; gap: 0.5rem;">
+                                <i class="ph ph-github-logo"></i> GitHub Repository
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- EXPERIENCE AND CERTIFICATIONS -->
+        <section class="experience section glass-bg" id="experience">
+            <div class="experience__container container grid">
+
+                <div class="timeline reveal-left">
+                    <h2 class="section__title">Internships</h2>
+
+                    <div class="timeline__item">
+                        <div class="timeline__dot"></div>
+                        <h3 class="timeline__title">Agentic AI Intern</h3>
+                        <span class="timeline__date">Innomatics Research Labs | Feb 2026 – May 2026</span>
+                        <ul class="timeline__list">
+                            <li class="timeline__bullet">Developed advanced AI workflows using Python, FastAPI, LangChain, and LangGraph on AWS.</li>
+                            <li class="timeline__bullet">Built and deployed production-ready agentic pipelines with multi-step reasoning and tool integration.</li>
+                            <li class="timeline__bullet">Gained hands-on experience with cloud services and RESTful API design.</li>
+                        </ul>
+                    </div>
+
+                    <div class="timeline__item">
+                        <div class="timeline__dot"></div>
+                        <h3 class="timeline__title">Front-End Development Intern</h3>
+                        <span class="timeline__date">IBM (via Edunet) | Sep 2025 – Oct 2025</span>
+                        <ul class="timeline__list">
+                            <li class="timeline__bullet">Designed and developed responsive websites including a furniture booking platform using HTML, CSS, and JavaScript.</li>
+                            <li class="timeline__bullet">Built interactive, user-friendly interfaces applying accessibility and UI/UX best practices.</li>
+                        </ul>
+                    </div>
+
+                    <div class="timeline__item">
+                        <div class="timeline__dot"></div>
+                        <h3 class="timeline__title">Front-End Web Development</h3>
+                        <span class="timeline__date">AICTE &amp; Edunet Foundation | Aug 2025 – Sep 2025</span>
+                    </div>
+
+                    <div class="timeline__item">
+                        <div class="timeline__dot"></div>
+                        <h3 class="timeline__title">AI &amp; Prompt Engineering</h3>
+                        <span class="timeline__date">VaultofCodes | Jul 2025 – Aug 2025</span>
+                    </div>
+                </div>
+
+                <div class="certifications reveal-right">
+                    <h2 class="section__title">Certifications &amp; Achievements</h2>
+                    <ul class="cert__list">
+                        <li><i class="ph-fill ph-check-circle"></i> <a href="Online Certifications/Aignite certificate.jpeg" target="_blank" style="color: inherit; text-decoration: underline;">AIGNITE 2.0 – National Level Hands-on Gen AI Training &amp; Hackathon, AITAM &amp; V Cube – Feb 2026</a></li>
+                        <li><i class="ph-fill ph-check-circle"></i> <a href="Online Certifications/AITAM 24 hrs Webathon.jpg" target="_blank" style="color: inherit; text-decoration: underline;">24-Hours Webathon Using AI – Dept. of CSE, AITAM Tekkali – Feb 2026</a></li>
+                        <li><i class="ph-fill ph-check-circle"></i> <a href="Online Certifications/AWS Certified Cloud Practitioner certificate.pdf" target="_blank" style="color: inherit; text-decoration: underline;">AWS Certified Cloud Practitioner (CLF-C02) – Amazon Web Services – Earned August 2026</a></li>
+                        <li><i class="ph-fill ph-check-circle"></i> Samsung Galaxy AI Treasure Hunt 2026 – Certificate of Participation (via Unstop) – June 2026</li>
+                        <li><i class="ph-fill ph-check-circle"></i> <a href="Online Certifications/NPTEL/Python for Data Science.pdf" target="_blank" style="color: inherit; text-decoration: underline;">NPTEL – Python for Data Science (Data analysis, visualization, and ML using Python)</a></li>
+                        <li><i class="ph-fill ph-check-circle"></i> <a href="Online Certifications/AICTE EDUNET IBM/Completion Certificate _ SkillsBuild.PDF" target="_blank" style="color: inherit; text-decoration: underline;">Edunet – Front-End Web Development (Responsive web application design)</a></li>
+                        <li><i class="ph-fill ph-check-circle"></i> Python Fundamentals – GeeksforGeeks</li>
+                        <li><i class="ph-fill ph-check-circle"></i> <a href="Online Certifications/google arcade genai swag.png" target="_blank" style="color: inherit; text-decoration: underline;">Google Cloud Study Jams 2025 – GenAI Arcade Game completion (swag recipient)</a></li>
+                        <li><i class="ph-fill ph-check-circle"></i> 2nd Place – Web Quest Competition, “Static Online Examination Portal,” Dept. of CSD, AITAM Tekkali</li>
+                        <li><i class="ph-fill ph-check-circle"></i> Member – Disciplinary Committee, AITAM Tekkali</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="contact section" id="contact">
+            <div class="contact__container container grid reveal-up">
+                <div class="contact__content text-center">
+                    <h2 class="section__title">Get In Touch</h2>
+                    <p class="contact__description">Have a project in mind or want to discuss analytics and machine
+                        learning? Let's connect!</p>
+
+                    <div class="contact__info grid mt-2">
+                        <a href="mailto:hemanthbin354@gmail.com" class="contact__card">
+                            <i class="ph ph-envelope contact__icon"></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">hemanthbin354@gmail.com</span>
+                        </a>
+
+                        <div class="contact__card">
+                            <i class="ph ph-phone contact__icon"></i>
+                            <h3 class="contact__card-title">Phone</h3>
+                            <span class="contact__card-data">+91-9347829303</span>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class="ph ph-map-pin contact__icon"></i>
+                            <h3 class="contact__card-title">Location</h3>
+                            <span class="contact__card-data">Chapara Village, Srikakulam, Andhra Pradesh</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__socials mt-2">
+                        <a href="https://github.com/HEMANTHBINNALA" target="_blank" class="contact__social-link">
+                            <i class="ph ph-github-logo"></i> GitHub
+                        </a>
+                        <a href="https://www.linkedin.com/in/hemanth-binnala-1624ba324/" target="_blank"
+                            class="contact__social-link">
+                            <i class="ph ph-linkedin-logo"></i> LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <span class="footer__copy">&#169; Binnala Hemanth. All rights reserved.</span>
+        </div>
+    </footer>
+
+    <!-- Scroll Up -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ph ph-arrow-up"></i>
+    </a>
+
+    <!-- Main JS -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

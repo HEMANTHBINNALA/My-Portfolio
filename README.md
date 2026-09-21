@@ -23,6 +23,12 @@ The portfolio is intentionally lightweight and browser-first: the main experienc
 - **Responsive navigation** — mobile navigation menu and active-section highlighting while scrolling.
 - **Motion effects** — scroll-reveal animations and a canvas-based interactive particle background.
 
+## Recent Experience
+
+### AWS Cloud Computing Internship — CCC Digital India Private Limited
+
+Completed an AWS Cloud Computing internship from **May 2026 to June 2026**, gaining practical experience in **AWS fundamentals, core services, and cloud security**. The completion certificate identifies the internship certificate number as **INT-05260626-432**. fileciteturn0file0L5-L11
+
 ## Featured Projects
 
 ### RAG-Based Customer Support System

@@ -29,6 +29,18 @@ The portfolio is intentionally lightweight and browser-first: the main experienc
 
 Completed an AWS Cloud Computing internship from **May 2026 to June 2026**, gaining practical experience in **AWS fundamentals, core services, and cloud security**. The completion certificate identifies the internship certificate number as **INT-05260626-432**. fileciteturn0file0L5-L11
 
+## NPTEL Certification — Introduction to Large Language Models (LLMs)
+
+Completed the 12-week NPTEL/SWAYAM course **Introduction to Large Language Models (LLMs)** offered through **IIT Madras**, during **July–October 2026**.
+
+- **Consolidated score:** 58%
+- **Online assignments:** 25/25
+- **Proctored examination:** 33/75
+- **Recommended credits:** 4
+- **Certificate roll number:** NPTEL26CS171S869600284
+
+The portfolio includes a dedicated certification-details page under `Online Certifications/NPTEL/`. The original uploaded PDF still needs to be added as a binary asset to make the certificate itself downloadable.
+
 ## Featured Projects
 
 ### RAG-Based Customer Support System
